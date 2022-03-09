@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A Simple 2048 Game with JavaScript" />
+		<meta name="keywords" content="2048, Game, JavaScript" />
+		<title>2048</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+		<link rel="manifest" href="/assets/site.webmanifest" />
+		<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#333333" />
+		<meta name="msapplication-TileImage" content="/assets/mstile-144x144.png" />
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="stylesheet" href="/dist/style.css" />
+		<script src="/src/script.js" type="module"></script>
+	</head>
+	<body class="flex h-screen items-center justify-center bg-black/80 font-sans text-[7.5vmin] font-bold">
+		<div id="gameBoard" class="relative grid grid-cols-[repeat(var(--grid-size),var(--cell-size))] grid-rows-[repeat(var(--grid-size),var(--cell-size))] gap-[var(--cell-gap)] rounded-[1vmin] bg-gray-300 p-[var(--cell-gap)]"></div>
+	</body>
+</html>

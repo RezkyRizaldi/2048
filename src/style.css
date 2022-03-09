@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tile {
+	background-color: hsl(200, 50%, var(--background-lightness));
+	color: hsl(200, 50%, var(--text-lightness));
+}
+
+@keyframes show {
+	0% {
+		opacity: 0.5;
+		transform: scale(0);
+	}
+}
